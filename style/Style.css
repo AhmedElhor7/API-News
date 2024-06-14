@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a.active {
+  background-color: #5356ff;
+}
+
+nav ul a {
+padding: .5rem;
+border-radius: .50rem;
+}
+
+aside {
+  width: 12.5rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 4.375rem;
+  background-color: #2c3034;
+}
+aside a {
+  width: 100%;
+  padding: 0.625rem;
+}
+
+main {
+  width: calc(100% - 12.5rem);
+  margin-left: auto;
+  padding-top: 4.375rem;
+}
+
+article img {
+  height: 15rem;
+  object-fit: cover;
+}
